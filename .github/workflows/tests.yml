@@ -23,7 +23,7 @@ jobs:
 
       - name: Copy .env file
         run: |
-          cp .env.testing .env.testing
+          cp .env.ci .env.testing
 
       - name: Run composer
         run: |
